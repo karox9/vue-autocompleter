@@ -10,7 +10,6 @@ var app = new Vue({
       change: false,
       mark: -1,
     },
-
     watch: {
         mark() {
             this.filteredCities2 = false;
