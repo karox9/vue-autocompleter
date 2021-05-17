@@ -1,0 +1,79 @@
+.html * {
+    margin: 0;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 2.5fr 0.3fr;
+    gap: 0px 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: lavender;
+}
+  
+.header {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(219, 211, 211);
+    background-color: rgba(95, 91, 94, 0.979);
+    border: 2.5px solid rgb(250, 250, 250);
+    box-shadow: 3px 3px 3px rgb(182, 182, 180);
+}
+
+h1 .title {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.main {
+    display: flex;   
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.box {
+    display: block;
+}
+
+.item {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(219, 211, 211);
+    background-color: rgba(167, 167, 167, 0.979);
+    border: 2.5px solid rgb(250, 250, 250);
+    box-shadow: 3px 3px 3px rgb(182, 182, 180);
+}
+
+.item a {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.footer {
+    text-align: end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(219, 211, 211);
+    background-color: rgba(95, 91, 94, 0.979);
+    border: 2.5px solid rgb(250, 250, 250);
+    box-shadow: 3px 3px 3px rgb(182, 182, 180);
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.github {
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
